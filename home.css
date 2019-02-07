@@ -2,13 +2,16 @@
 
 .hero-body
 {
-  background: url('Images2/bgmain.png');
+  background: url('images2/bgmain.png');
   background-repeat: no-repeat;
   background-size: cover; 
 }
 
 
-
+.Herramientas{
+  
+  width: 100%;
+}
 #Herramientas
 {
   border-style: solid;
@@ -17,6 +20,8 @@
  padding: 0px;
   margin: 30px;
   max-width: 400px;
+  background-color: #fff;
+
   
 }
 
@@ -42,14 +47,14 @@ padding-top:15px;
   text-align: center;
   padding: 50px;
   height: 300px;
-  background: url('Images2/dolar.png');
+  background: url('images2/dolar.png');
   background-repeat: no-repeat;
   background-size: cover; 
 }
 
 .story2:hover{
    color:#03008e;
-  background: url('Images2/invert-dolar.png');
+  background: url('images2/invert-dolar.png');
   background-repeat: no-repeat;
   background-size: cover; 
 }
@@ -64,14 +69,14 @@ padding-top:15px;
   text-align: center;
   padding: 50px;
   height: 300px;
-  background: url('Images2/map.png');
+  background: url('images2/map.png');
   background-repeat: no-repeat;
   background-size: cover; 
 }
 
 .story3:hover{
    color:#03008e;
-  background: url('Images2/invert-map.png');
+  background: url('images2/invert-map.png');
   background-repeat: no-repeat;
   background-size: cover; 
 }
@@ -87,13 +92,13 @@ padding-top:15px;
   text-align: center;
   padding: 50px;
   height: 300px;
-  background: url('Images2/lottery.png');
+  background: url('images2/lottery.png');
   background-repeat: no-repeat;
   background-size: cover; 
 }
 .story4:hover{
    color:#03008e;
-  background: url('Images2/invert-lott.png');
+  background: url('images2/invert-lott.png');
   background-repeat: no-repeat;
   background-size: cover; 
 }
