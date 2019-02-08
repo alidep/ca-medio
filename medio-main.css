@@ -144,6 +144,8 @@ padding-top:15px;
 
 }
 
+
+
 .button{
   border-radius: 0;
   border-width: 1.5px;
@@ -161,7 +163,7 @@ padding-top:15px;
   }
 }
 
-.button:hover{
+.button:hover {
   border-width: 1.5px;
   border-color: #D400F7;
   background-color: #E7FCFF;
@@ -182,15 +184,44 @@ padding-top:15px;
     font-size: 1.2rem;
     padding: 25px;}
 
-.button.is-small{
-font-size: .8rem;
-padding: 20px;
-box-shadow: 0px 0px #000;}
 
-.button.is-small:hover{
-font-size: .8rem;
-padding: 20px;
-box-shadow: 0px 0px #000;}
+
+.button.is-large:hover {
+
+
+  border-width: 1.5px;
+  border-color: #D400F7;
+  background-color: #E7FCFF;
+  box-shadow: 5px 5px #5358FF;
+}
+.button.is-large:active {
+
+  border-width: 1.5px;
+  border-color: #D400F7;
+  background-color: #E7FCFF;
+  box-shadow: 0px 0px #5358FF;
+  transform: translateY(5px);
+  transform: translateX(5px);
+}
+
+
+.button.is-small:hover {
+
+
+  border-width: 1.5px;
+  border-color: #D400F7;
+  background-color: #E7FCFF;
+  box-shadow: 5px 5px #5358FF;
+}
+.button.is-small:active {
+
+  border-width: 1.5px;
+  border-color: #D400F7;
+  background-color: #E7FCFF;
+  box-shadow: 0px 0px #5358FF;
+  transform: translateY(5px);
+  transform: translateX(5px);
+}
 
 
 #arrow{
@@ -214,7 +245,6 @@ box-shadow: 0px 0px #000;}
 }
 
 
-
 /**SHARING LINKS**/
 
 .sharing-links{
@@ -231,22 +261,61 @@ z-index: 1;
 
 .sharing-links  button {
 
-    background-color: transparent;
-    border: 2px solid rgba(177, 177, 177, 0.3);
+    background-color: transparent; 
+    border: 1px solid rgba(177, 177, 177, 0.3); 
     border-radius: 0px;
     margin: 5px;
     outline: none;
-    color: #979797;
+    color: #979797; 
     font-family: 'Hind', sans-serif;
     font-size: 12px;
     padding: 8px 10px; /* Some padding */
-    width: 50px; /* Set a width if needed */
+    width: 100px; /* Set a width if needed */
     display: block; /* Make the buttons appear below each other */
 
 }
 
 
 
+.sharing button {
+    
+    background-color: transparent; 
+    border: 1px solid #cccccc; 
+    border-radius: 0px;
+    margin: 5px;
+    outline: none;
+    color: #979797; 
+    font-family: 'Hind', sans-serif;
+    font-size: 14px;
+    padding: 8px 10px; /* Some padding */
+    width: 120px; /* Set a width if needed */
+  float: right; /* Float the buttons side by side */
+}
+
+
+.btn-text
+{
+ color: #979797; 
+ font-family: 'Hind', sans-serif;
+ font-size: 14px;}
+
+button:hover .fa-twitter{
+color:#1da1f3;
+ }
+
+
+
+button:hover .btn-text{
+color:black;
+ }
+
+button:hover .fa-heart {
+color:#ef013e;
+ }
+
+button:hover .fa-facebook-f{
+color:#415086
+ }
 
 
 .btn-text
